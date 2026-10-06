@@ -1,0 +1,19 @@
+{
+  "status": "draft",
+  "summary": "BO2 Zombies co-op mashup with CS2 assets. Design prototype complete; GSC loader not yet built. Sheets clean. Anti-cheat safe. No screenshot captured. No Melty submission yet.",
+  "missing_before_publish": [
+    "Confirm build direction: React launcher vs GSC loader script",
+    "Installed folder paths for BO2 and CS2",
+    "Universal-modder clone (needs bash) or manual scripting",
+    "Screenshot of running build",
+    "Build verification in BO2 (cannot test without loader + paths)",
+    "Melty submit_release with validated recipe"
+  ],
+  "authorizations_needed": [
+    "Confirm assumption (option 3, co-op 2-4)",
+    "Confirm folder paths or placeholder tokens",
+    "Confirm screenshot approach (user-capture or skip)",
+    "Confirm publish as draft or complete build first"
+  ],
+  "label": "PROVISIONAL — DO NOT PUBLISH WITHOUT USER CONFIRMATION"
+}

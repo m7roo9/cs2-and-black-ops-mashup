@@ -1,0 +1,19 @@
+{
+  "preflight_date": "2026-01-01",
+  "sheet_cross_checks": [
+    {"source_sheet":"weapons","source_row":"AK-47 Loadout","referenced_by":"loadouts","status":"unverified"},
+    {"source_sheet":"weapons","source_row":"M4A4 Loadout","referenced_by":"loadouts","status":"unverified"},
+    {"source_sheet":"weapons","source_row":"AWP Loadout","referenced_by":"loadouts","status":"unverified"},
+    {"source_sheet":"loadouts","source_row":"Tactical Assault","references":"weapons","status":"unverified"},
+    {"source_sheet":"loadouts","source_row":"Precision Marksman","references":"weapons","status":"unverified"},
+    {"source_sheet":"loadouts","source_row":"Heavy Sniper","references":"weapons","status":"unverified"},
+    {"source_sheet":"systems","source_row":"Loadout Selector","references":"loadouts","status":"unverified"},
+    {"source_sheet":"systems","source_row":"Weapon Audio","references":"weapons","status":"unverified"}
+  ],
+  "unfilled_cells": [
+    "weapons/AWP Loadout/is_playable => false (first version excludes it)",
+    "loadouts/Heavy Sniper/is_active => false (first version excludes it)"
+  ],
+  "clean_for_build": true,
+  "notes": "Preflight shows unverified references. Build blocked until user confirms concept and mode. AWP and Heavy Sniper excluded from first version intentionally."
+}

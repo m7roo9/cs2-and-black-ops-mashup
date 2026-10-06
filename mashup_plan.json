@@ -1,0 +1,17 @@
+{
+  "mashup_name": "Black Ops II Zombies x CS2 Loadouts",
+  "description": "A Black Ops II Zombies/custom-map mashup that pulls Counter-Strike 2 weapon audio and loadout data from the player's installed CS2 folder. The player launches Black Ops II with a custom GSC script loader (T6SP-Mod style) that applies CS2-style weapon sounds, perk equivalents, and buy-round economy to BO2 Zombies co-op.",
+  "host_game": "Call of Duty: Black Ops II",
+  "asset_source": "Counter-Strike 2 (installed folder only, read-only assets)",
+  "engine": "IW Engine (BO2)",
+  "mod_route": "T6SP-Mod / custom GSC loader",
+  "multiplayer": true,
+  "max_players": 4,
+  "required_games": [
+    {"name": "Call of Duty: Black Ops II", "required_version": "Any official PC version", "folder_used": true},
+    {"name": "Counter-Strike 2", "required_version": "Installed (read-only assets)", "folder_used": true}
+  ],
+  "solo_or_multiplayer": "Multiplayer co-op (2-4 players in BO2 Zombies)",
+  "player_first_minute": "Launch BO2 Zombies, select CS2 loadout (AK-47 / M4A4 style class), hear CS2 weapon audio in first wave",
+  "first_playable_version": "One custom Zombies map with CS2 weapon sounds, 2 loadout options, basic economy UI overlay"
+}

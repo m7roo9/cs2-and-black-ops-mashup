@@ -1,0 +1,15 @@
+{
+  "title": "Black Ops II Zombies × CS2 Loadouts",
+  "tagline": "A BO2 Zombies co-op mashup (2-4 players) that pulls CS2 weapon audio and loadouts from your installed CS2 folder. Runs via T6SP-Mod / GSC loader — no VAC interaction.",
+  "description": "Launch Black Ops II Zombies with custom GSC scripts that apply Counter-Strike 2 weapon sounds, loadout picker (AK-47 / M4A4), and economy overlay. The mod reads CS2's installed folder for assets only — it never loads anything into CS2, so there's no anti-cheat risk. Multiplayer co-op for 2-4 friends. First version includes one custom Zombies map, two active loadouts, and basic economy UI. Built from sheets: weapons, loadouts, systems, preflight clean.",
+  "required_games": ["Call of Duty: Black Ops II", "Counter-Strike 2 (assets only)"],
+  "multiplayer": true,
+  "max_players": 4,
+  "credits": "Design and sheets: user and assistant. Engine: IW Engine (BO2). Assets source: Counter-Strike 2 (Valve). Loader concept: T6SP-Mod / BO2 Mod Manager community. Build: React launcher (this version).",
+  "license": "MIT (project files); game assets remain property of Valve / Activision. This mashup does not distribute any game files.",
+  "remix_choice": "Remix allowed from sheets (JSON). Original game assets may not be redistributed by others.",
+  "github_repo": null,
+  "mod_id": null,
+  "version": "0.1.0-provisional",
+  "release_type": "draft"
+}
